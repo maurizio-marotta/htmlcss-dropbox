@@ -4,17 +4,18 @@
   padding: 0;
   box-sizing: border-box;
 }
-/*header*/
 
-header{
-  
+.debug{
+  border: solid ;
 }
 
+/*header*/
+
 .container-1{
-  position: fixed;
+/*  position: fixed;*/
   background-color: white;
   width: 100%;
-  padding: 30px;
+  padding: 10px;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -41,7 +42,7 @@ header{
   align-items: center;
 }
 
- .bottone{
+.bottone{
   display: flex;
   align-items: center;
   justify-content: center;
@@ -50,7 +51,57 @@ header{
   background-color: blue;
  }
 
-
-
 /*main*/
+
+/*primo blocco*/
+.primo-blocco{
+  padding: 5%;
+  background-color: rgb(8, 131, 212);
+  width: 100%;
+  display: flex;
+}
+
+.sezione-testo{
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+h1{
+  width: 335%;
+  font-size: 4rem;
+}
+
+.contenitore{
+  display: flex;
+  justify-content: space-between;
+}
+
+img{
+  width: 60%;
+}
+
+/*blocco 2*/
+.container-2{
+  position: relative;
+  background-color: white;
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-2 .rettangolo{
+  width: 340px;
+  height: 700px;
+  margin: 0 20px 0 20px;
+}
+
+.col-1{
+  padding: 0%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 /*footer*/
