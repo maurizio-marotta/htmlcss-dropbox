@@ -5,14 +5,45 @@
   box-sizing: border-box;
 }
 
+body{
+  font-family: 'Fredoka One', cursive;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.d-flex {
+  display: flex;
+}
+
 .debug{
-  border: solid ;
+  border: 1px solid ;
+}
+
+a{
+  text-decoration: none;
+}
+
+ul {
+  margin-left: 15px;
+  list-style-type: none;
+}
+
+li{
+  margin-bottom: 10px;
+}
+
+h3{
+  font-size: 2rem;
+  margin-bottom: 10%;
+}
+
+h4{
+  margin: 20px 0px 20px; 
 }
 
 /*header*/
 
 .container-1{
-/*  position: fixed;*/
+  position: fixed;
   background-color: white;
   width: 100%;
   padding: 10px;
@@ -58,10 +89,11 @@
   padding: 5%;
   background-color: rgb(8, 131, 212);
   width: 100%;
-  display: flex;
+  /* display: flex; */
 }
 
 .sezione-testo{
+  margin-top: 5%;
   display: flex;
   justify-content: center;
   align-items: flex-start;
@@ -77,31 +109,133 @@ h1{
   justify-content: space-between;
 }
 
+.contenitore span.direzione.sopra{
+  display: flex;
+  justify-content: center;
+  padding: 10px 0px 0px 0px;
+}
+
+.contenitore span.direzione.sotto{
+  display: flex;
+  justify-content: center;
+  padding: 0px 0px 0px 0px;
+}
+
+.contenitore span.direzione.sotto-2{
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  padding: 10px 0px 0px 0px;
+}
+
 img{
   width: 60%;
 }
 
 /*blocco 2*/
+
+
+.sezione-testo-2{
+  margin-bottom: 5%;
+}
+
 .container-2{
-  position: relative;
-  background-color: white;
   width: 100%;
-  padding: 10px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  padding: 10%;
 }
 
-.container-2 .rettangolo{
-  width: 340px;
-  height: 700px;
-  margin: 0 20px 0 20px;
+.colonne .col{
+  width: calc(100% / 3);
+  height: 300px;
+  float: left;
 }
 
-.col-1{
-  padding: 0%;
+.col{
+  width: 120px;
+  height: 300px;
+  float: left;
+}
+
+.colonne span{
+  display: flex;
+  justify-content: center;
+}
+
+.colonna-1 {
+  float: left;
+  width: 30%;
+  margin: 1%;
+}
+
+.colonna-2 {
+  float: left;
+  width: 30%;
+  margin: 1%;
+}
+
+.colonna-3 {
+  float: left;
+  width: 30%;
+  margin: 1%;
+}
+
+.colonne .colonna-1,
+.colonne .colonna-2,
+.colonne .colonna-3{
+  height: 800px;
+}
+
+span.primo-riquardo{
+  padding: 3%;
   display: flex;
   align-items: center;
   justify-content: center;
 }
+
+li.prova{
+  margin-top: 20%;
+  text-align: center;
+  color: white;
+  width: 90%;
+  background-color: blue;
+  padding: 1%;
+}
+
+li.mese{
+  color: rgb(175, 175, 221);
+  margin-bottom: 10%;
+}
+
+li.lista-destra{
+  display: flex;
+  justify-content: center;
+  width: 30%;
+  color: white;
+  margin: 0px 50px 0px 0px;
+  background-color: blue;
+  float: right;
+}
+
+hr.linea{
+  margin-bottom: 20%;
+  margin-right: 90%;
+}
+.fa-solid.fa-check{
+  color: cornflowerblue;
+}
+
+.colonna-4{
+  width: 100%;
+}
+.contenitore-2{
+  margin-top: 10%;
+  float: left;
+  display: flex;
+  width: 94%;
+  margin-left: 1%;
+
+}
+
+
+
 /*footer*/
