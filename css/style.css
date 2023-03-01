@@ -402,6 +402,20 @@ hr.linea{
   padding: 5px 10px;
 }
 
+/*blocco 5*/
 
+.domande{
+  margin-top: 65%;
+}
+
+.domande h2{
+  margin-bottom: 30px;
+}
+
+.question{
+  justify-content: space-between;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
 
 /*footer*/
