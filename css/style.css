@@ -14,9 +14,9 @@ body{
   display: flex;
 }
 
-.debug{
-  border: 1px solid ;
-}
+/*.debug{
+  border: 1px solid
+}*/
 
 a{
   text-decoration: none;
@@ -32,13 +32,25 @@ li{
 }
 
 h3{
-  font-size: 2rem;
-  margin-bottom: 10%;
+  font-size: 2.5rem;
+  margin-bottom: 5%;
 }
 
 h4{
   margin: 20px 0px 20px; 
 }
+
+.margin-bottom{
+  margin-bottom: 25px;
+}
+
+.riquadro{
+  border: 1px solid;
+}
+
+/*.container-3{
+
+}*/
 
 /*header*/
 
@@ -65,6 +77,7 @@ h4{
   color: black;
   margin-right: 20px;
 }
+
 
 .blocco{
   width: 100%;
@@ -128,7 +141,11 @@ h1{
   padding: 10px 0px 0px 0px;
 }
 
-img{
+.card-image img{
+  width: 60%;
+}
+
+img.immgine-desrta{
   width: 60%;
 }
 
@@ -141,7 +158,7 @@ img{
 
 .container-2{
   width: 100%;
-  padding: 10%;
+  padding: 5%;
 }
 
 .colonne .col{
@@ -228,12 +245,161 @@ hr.linea{
   width: 100%;
 }
 .contenitore-2{
+  margin-bottom: 10%;
   margin-top: 10%;
   float: left;
   display: flex;
   width: 94%;
   margin-left: 1%;
+}
+.content-section-main{
+  margin-top: 120%;
+  justify-content: space-between;
+}
 
+.parner{
+  width: 80%;
+}
+
+.col-1-main {
+  justify-content: flex-start;
+  display: flex;
+  width: 80%;
+}
+
+.col-2-main{
+  flex-basis: 40%;
+}
+.col-2-main h2 {
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+.col-2-main span{
+  border: 1px solid;
+}
+
+.trova{
+  padding: 5px 20px;
+}
+
+/*blocco 3*/
+
+.contenitore-card{
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.card{
+  width: calc(100% / 3);
+  min-width: 250px;
+  padding: 0 10px;
+  margin-bottom: 15%;
+}
+
+.card-text h5{
+  font-size: 1.2rem;
+}
+
+.immagini img{
+  width: 20%;
+}
+
+/*blocco 4*/
+
+.partner-designit{
+  background-color: rgb(187, 218, 127);
+}
+
+.partner-ari{
+  background-color: darkviolet;
+}
+
+.partner-uni{
+  background-color: cornflowerblue
+}
+
+.partner-topps{
+  background-color: rgb(240, 57, 50)
+}
+
+.partner-wrl{
+  background-color: rgb(238, 42, 42)
+}
+
+.partner-hearst{
+  background-color: cadetblue
+}
+
+.partner-lonely{
+  background-color: violet
+}
+
+.partner-channel{
+  background-color: yellowgreen
+}
+
+.partner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  float: left;
+  width: 50%;
+  height: 50%;
+}
+
+.partners {
+  float: left;
+  width: 30%;
+  height: 30vw;
+}
+
+.partner img {
+  position: absolute;
+  width: 50%;
+  margin: auto;
+  filter: invert(100%);
+}
+
+.partners-description {
+  float: left;
+  width: 40%;
+  height: 30vw;
+  background-color: #F5F5F5;
+  overflow: auto;
+}
+
+.partners-description.partners img {
+  width: 25%;
+  margin-bottom: 20px;
+}
+
+.description-container{
+  margin: 40px 40px 40px 40px;
+}
+
+.img-description{
+  margin-bottom: 20px;
+  width: 30%;
+}
+
+.crediti{
+  margin-top: 20px;
+}
+
+.bloc{
+  width: 100%;
+  height: 300px;
+  float: left;
+  background-color: rgb(97, 210, 214);
+  align-items: center;
+  justify-content: space-around;
+}
+
+.inizia{
+  background-color: white;
+  padding: 5px 10px;
 }
 
 
