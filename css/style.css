@@ -453,3 +453,217 @@ footer{
 .fa-earth-americas{
   margin-left: 70px;
 }
+
+/*hover*/
+
+.hover-underline-animation {
+  display: inline-block;
+  position: relative;
+  color: #0087ca;
+}
+
+.hover-underline-animation::after {
+  content: '';
+  position: absolute;
+  width: 90%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0px;
+  left: 0;
+  top: 20px;
+  background-color: #000000;
+}
+
+.hover-underline-animation:hover::after {
+  transform: scaleX(1);
+}
+
+li.prova:hover{
+  cursor: pointer;
+  transition: 2s;
+  background-color: yellow;
+}
+
+li.lista-destra:hover{
+  cursor: pointer;
+  transition: 2s;
+  background-color: yellow;
+}
+
+a.bottone:hover{
+  cursor: pointer;
+  transition: 2s;
+  background-color: yellow;
+}
+
+span.trova:active{
+  background-color: coral;
+  transition: 2s;
+  cursor: pointer;
+}
+
+.partners:hover{
+  cursor: pointer;
+}
+
+.partner-designit:hover{
+  --clr:  rgb(187, 218, 127);
+  --outline: 2px solid var(--clr);
+  color: var(--clr);
+  outline: var(--outline);
+  border: var(--outline);
+  outline-offset: -2px;
+  transition: 2s;
+}
+
+.partner-designit:hover,
+.partner-designit:focus {
+  outline: var(--outline);
+  outline-offset: -10px;
+  outline-color: rgb(206, 230, 160);
+  outline-width: 10px;
+}
+
+.partner-ari:hover{
+  --clr: darkviolet;
+  --outline: 2px solid var(--clr);
+  color: var(--clr);
+  outline: var(--outline);
+  border: var(--outline);
+  outline-offset: -2px;
+  transition: 2s;
+}
+
+.partner-ari:hover,
+.partner-ari:focus {
+  outline: var(--outline);
+  outline-offset: -10px;
+  outline-color:  rgb(156, 32, 209);
+  outline-width: 10px;
+}
+
+.partner-uni:hover{
+  --clr: cornflowerblue;
+  --outline: 2px solid var(--clr);
+  color: var(--clr);
+  outline: var(--outline);
+  border: var(--outline);
+  outline-offset: -2px;
+  transition: 2s;
+}
+
+.partner-uni:hover,
+.partner-uni:focus {
+  outline: var(--outline);
+  outline-offset: -10px;
+  outline-color: rgb(127, 164, 233);
+  outline-width: 10px;
+}
+
+.partner-topps:hover{
+  --clr: rgb(240, 57, 50);
+  --outline: 2px solid var(--clr);
+  color: var(--clr);
+  outline: var(--outline);
+  border: var(--outline);
+  outline-offset: -2px;
+  transition: 2s;
+}
+
+.partner-topps:hover,
+.partner-topps:focus {
+  outline: var(--outline);
+  outline-offset: -10px;
+  outline-color: rgb(228, 100, 96);
+  outline-width: 10px;
+}
+
+.partner-wrl:hover{
+  --clr: rgb(238, 42, 42);
+  --outline: 2px solid var(--clr);
+  color: var(--clr);
+  outline: var(--outline);
+  border: var(--outline);
+  outline-offset: -2px;
+  transition: 2s;
+}
+
+.partner-wrl:hover,
+.partner-wrl:focus {
+  outline: var(--outline);
+  outline-offset: -10px;
+  outline-color: rgb(236, 74, 74);
+  outline-width: 10px;
+}
+
+.partner-hearst:hover{
+  --clr: cadetblue;
+  --outline: 2px solid var(--clr);
+  color: var(--clr);
+  outline: var(--outline);
+  border: var(--outline);
+  outline-offset: -2px;
+  transition: 2s;
+}
+
+.partner-hearst:hover,
+.partner-hearst:focus {
+  outline: var(--outline);
+  outline-offset: -10px;
+  outline-color: rgb(124, 160, 161);
+  outline-width: 10px;
+}
+
+.partner-lonely:hover{
+  --clr: violet;
+  --outline: 2px solid var(--clr);
+  color: var(--clr);
+  outline: var(--outline);
+  border: var(--outline);
+  outline-offset: -2px;
+  transition: 2s;
+}
+
+.partner-lonely:hover,
+.partner-lonely:focus {
+  outline: var(--outline);
+  outline-offset: -10px;
+  outline-color: rgb(202, 134, 202);
+  outline-width: 10px;
+}
+
+.partner-channel:hover{
+  --clr:  yellowgreen;
+  --outline: 2px solid var(--clr);
+  color: var(--clr);
+  outline: var(--outline);
+  border: var(--outline);
+  outline-offset: -2px;
+  transition: 2s;
+}
+
+.partner-channel:hover,
+.partner-channel:focus {
+  outline: var(--outline);
+  outline-offset: -10px;
+  outline-color:  rgb(164, 209, 75);
+  outline-width: 10px;
+}
+
+.accordion {
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+}
+
+.panel {
+  padding: 0 18px;
+  display: none;
+  background-color: white;
+  overflow: hidden;
+}

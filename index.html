@@ -24,9 +24,9 @@
         <div class="menu sinistra">
           <nav>
             <ul>
-              <li><a href="#">Perchè dropbox</a></li>
-              <li><a href="#">Funzioni</a></li>
-              <li><a href="#">Piani e Prezzi</a></li>
+              <li class="hover-underline-animation"><a href="#">Perchè dropbox</a></li>
+              <li class="hover-underline-animation"><a href="#">Funzioni</a></li>
+              <li class="hover-underline-animation"><a href="#">Piani e Prezzi</a></li>
             </ul>
           </nav>
         </div>
@@ -34,9 +34,9 @@
         <div class="menu destra">
           <nav>
             <ul>
-              <li><a href="#">Supporto</a></li>
-              <li><a href="#">Contatta l'ufficio vendite</a></li>
-              <li><a href="#">Accedi</a></li>
+              <li class="hover-underline-animation"><a href="#">Supporto</a></li>
+              <li class="hover-underline-animation"><a href="#">Contatta l'ufficio vendite</a></li>
+              <li class="hover-underline-animation"><a href="#">Accedi</a></li>
               <li><a class="bottone" style="color:white" href="#">inizia</a></li>
             </ul>
           </nav>
@@ -156,7 +156,7 @@
               </div>
               <div class="col-2-main">
                   <h2>entra in contatto con un parter di Dropbox </h2>
-                  <p class="margin-bottom">Trova un parner Dropbox e HelloSing di fiducia. Ottieni le soluzioni e i servizi necessari per raggiungere i tuoi obbietivi azziendali,tra cui implementazione,integrazione,gestione e supporto continui</p>
+                  <p class="margin-bottom">Trova un parner Dropbox e HelloSing di fiducia. Ottieni le soluzioni e i servizi necessari per raggiungere i tuoi obbietivi azziendali,tra cui implementazione,integrazione,gestione e supporto continui lo</p>
                   <span class="trova">Trova un parner</span>
               </div>
           </div>
@@ -248,7 +248,7 @@
                         Dropbox
                         Paper. ora molte soluzioni sono compatibilicon queste esigenze, ma nessuna &egrave; facile
                         quanto
-                        Dropbox Paper"</p>
+                        Dropbox Paper"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae mollitia culpa eveniet rem voluptatem quidem facere nihil suscipit officia a? Hic quod soluta vel delectus quidem et sint saepe consequuntur!</p>
 
                     <div class="crediti">Morten Thomsen, Global IT Lead</div>
                 </div>
@@ -281,17 +281,37 @@
       <div class="domande">
         <h2>Domande frequenti</h2>
         <hr>
-        <div class="question d-flex"><span>qual è la differenza tra Dropbox Bussines standard e Dropbox Bussines Advanced?</span><i class="fa-solid fa-angle-down"></i>
+        <div class="accordion">
+          <div class="question d-flex"><span>qual è la differenza tra Dropbox Bussines standard e Dropbox Bussines Advanced?</span><i class="fa-solid fa-angle-down"></i>
+          </div>
         </div>
-        <hr>
-        <div class="question d-flex"><span>qual è la differenza tra Dropbox Bussines standard e Dropbox Bussines Advanced?</span><i class="fa-solid fa-angle-down"></i>
-        </div>
-        <hr>
-        <div class="question d-flex"><span>qual è la differenza tra Dropbox Bussines standard e Dropbox Bussines Advanced?</span><i class="fa-solid fa-angle-down"></i>
-        </div>
-        <hr>
-        <div class="question d-flex"><span>qual è la differenza tra Dropbox Bussines standard e Dropbox Bussines Advanced?</span><i class="fa-solid fa-angle-down"></i>
-        </div>
+          <div class="panel">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque molestias mollitia inventore impedit saepe! Illo velit vel, voluptates omnis facilis iste quibusdam eaque recusandae magnam voluptatum, praesentium possimus officiis quas!</p>
+          </div>
+          <hr>
+          <div class="accordion">
+            <div class="question d-flex"><span>qual è la differenza tra Dropbox Bussines standard e Dropbox Bussines Advanced?</span><i class="fa-solid fa-angle-down"></i>
+            </div>
+          </div>
+            <div class="panel">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque molestias mollitia inventore impedit saepe! Illo velit vel, voluptates omnis facilis iste quibusdam eaque recusandae magnam voluptatum, praesentium possimus officiis quas!</p>
+            </div>
+            <hr>
+            <div class="accordion">
+              <div class="question d-flex"><span>qual è la differenza tra Dropbox Bussines standard e Dropbox Bussines Advanced?</span><i class="fa-solid fa-angle-down"></i>
+              </div>
+            </div>
+              <div class="panel">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque molestias mollitia inventore impedit saepe! Illo velit vel, voluptates omnis facilis iste quibusdam eaque recusandae magnam voluptatum, praesentium possimus officiis quas!</p>
+              </div>
+              <hr>
+              <div class="accordion">
+                <div class="question d-flex"><span>qual è la differenza tra Dropbox Bussines standard e Dropbox Bussines Advanced?</span><i class="fa-solid fa-angle-down"></i>
+                </div>
+              </div>
+                <div class="panel">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque molestias mollitia inventore impedit saepe! Illo velit vel, voluptates omnis facilis iste quibusdam eaque recusandae magnam voluptatum, praesentium possimus officiis quas!</p>
+                </div>
       </div>
     </div>
 
@@ -358,6 +378,22 @@
     <hr class="line">
     <span><i class="fa-solid fa-earth-americas"></i>italia <span><i class="fa-solid fa-angle-up"></i></span></span>
   </footer>
+  <script>
+    var acc = document.getElementsByClassName("accordion");
+    var i;
+    
+    for (i = 0; i < acc.length; i++) {
+      acc[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var panel = this.nextElementSibling;
+        if (panel.style.display === "block") {
+          panel.style.display = "none";
+        } else {
+          panel.style.display = "block";
+        }
+      });
+    }
+    </script>
   
 </body>
 </html>
