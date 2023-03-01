@@ -62,6 +62,7 @@ h4{
   display: flex;
   justify-content: space-around;
   align-items: center;
+  z-index: 1;
 }
 
 .container-1 .logo {
@@ -419,3 +420,36 @@ hr.linea{
 }
 
 /*footer*/
+
+footer{
+  background-color: darkslategrey;
+  width: 100%;
+  color: white;
+}
+
+.informazioni{
+  margin-top: 70px;
+}
+
+.informazioni ul li a{
+  color: white;
+}
+
+.contenitore-informazione .informazioni{
+  width: calc(100% / 5);
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.title{
+  font-size: 1.3rem;
+}
+
+.line{
+  margin-left: 70px ;
+  margin-right: 90%;
+}
+
+.fa-earth-americas{
+  margin-left: 70px;
+}
