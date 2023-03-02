@@ -10,6 +10,11 @@ body{
   font-family: 'Open Sans', sans-serif;
 }
 
+.margine{
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
 .d-flex {
   display: flex;
 }
@@ -47,10 +52,6 @@ h4{
 .riquadro{
   border: 1px solid;
 }
-
-/*.container-3{
-
-}*/
 
 /*header*/
 
@@ -148,12 +149,14 @@ h1{
 
 img.immgine-desrta{
   width: 60%;
+  margin-bottom: -11%;
 }
 
 /*blocco 2*/
 
 
 .sezione-testo-2{
+  margin-top: 70px;
   margin-bottom: 5%;
 }
 
@@ -284,7 +287,13 @@ hr.linea{
   padding: 5px 20px;
 }
 
-/*blocco 3*/
+/* blocco 3*/
+
+.contenitore-testo-img{
+  margin-top: 155%;
+}
+
+/*blocco 4*/
 
 .contenitore-card{
   justify-content: space-between;
@@ -306,7 +315,7 @@ hr.linea{
   width: 20%;
 }
 
-/*blocco 4*/
+/*blocco 5*/
 
 .partner-designit{
   background-color: rgb(187, 218, 127);
